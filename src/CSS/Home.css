@@ -1,0 +1,46 @@
+.home{
+    /*
+    width: 100%; */
+    background-color: #e0aaff;
+    background-color: #d2e3f1;
+    /* background-color: url("https://shopify-xrh7.onrender.com/hero.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    font-weight: bold;
+}
+.home a{
+    font-weight: 400;
+}
+.b.btn{
+    font-weight: bold;
+}
+.home img{
+    padding:40px;
+    width:630px;
+    height:400px;
+}
+.b.btn:hover {
+    background-color:#3FA2F6
+}
+
+.bimage{
+    height:350px;
+    background-image: url("https://shopify-xrh7.onrender.com/banner.jpg");
+    background-size: 100% 100%;
+}
+/* .btext{
+    
+} */
+
+
+@media (max-width: 600px) {
+    .home img{
+        padding:10px;
+        width:400px;
+        height:250px;
+    }
+    .btext{
+        padding-top:20px;
+    }
+}

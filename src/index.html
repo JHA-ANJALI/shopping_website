@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome React App</title>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"> 
+    <script>
+        const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
+    </script>
+ 
+  
+</head>
+<body>
+    <div id="root">
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            lOGIN
+          </button>
+
+          
+    </div>
+</body>
+</html>
